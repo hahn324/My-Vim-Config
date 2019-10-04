@@ -1,0 +1,14 @@
+set go-=T
+set bg=dark
+
+"colorscheme moria
+colorscheme myvimgnome
+set guifont=Consolas:h9:cANSI
+"set transparency=1
+
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r 
+set guioptions-=R 
+set guioptions-=l
+set guioptions-=L
