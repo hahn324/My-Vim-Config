@@ -5,6 +5,7 @@ set nocompatible
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
+autocmd FileType javascript setlocal shiftwidth=2 softtabstop=2 expandtab
 set laststatus=2
 set hidden
 set modeline
