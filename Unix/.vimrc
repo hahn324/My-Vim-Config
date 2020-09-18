@@ -1,6 +1,4 @@
-if has("gui_running")
-    set guifont=Consolas:h9:cANSI
-endif
+set guifont=Menlo\ Regular:h09
 set nocompatible
 set shiftwidth=4
 set tabstop=4
@@ -52,8 +50,8 @@ autocmd BufRead * execute "normal zMzR"
 syntax enable
 
 set backup
-set backupdir=\Users\e0184461\Downloads\Vim\backup
-set directory=\Users\e0184461\Downloads\Vim\tmp
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
 
 map <C-J> <C-W>j
 map <C-K> <C-W>k

@@ -1,10 +1,9 @@
 set go-=T
 set bg=dark
 
-"colorscheme moria
-colorscheme myvimgnome
-set guifont=Consolas:h9:cANSI
-"set transparency=1
+colorscheme hahnvimgnome
+set guifont=Menlo\ Regular:h09
+set transparency=1
 
 set guioptions-=m
 set guioptions-=T
