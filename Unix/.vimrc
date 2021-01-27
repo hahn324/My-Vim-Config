@@ -71,6 +71,9 @@ nnoremap k gk
 nnoremap <Down> g<Down>
 nnoremap <Up> g<Up>
 
+vnoremap <C-c> "+y
+map <C-p> "+p
+
 nmap <silent> ,/ :nohlsearch<CR>
 
 " install miniBufExpl (https://github.com/weynhamz/vim-plugin-minibufexpl)
