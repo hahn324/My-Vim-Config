@@ -59,17 +59,17 @@ set nofoldenable
 autocmd BufRead * execute "normal zMzR"
 
 syntax enable
-setlocal spell spelllang=en_us
 
 let mapleader = " " 
 " turn spelling off or on
+setlocal spelllang=en_us
 nnoremap <leader>sp :setlocal spell!<CR>
 " yank to system clipboard
 nnoremap <leader>y "*y
 "Put from system clipboard
 nnoremap <leader>p "*p
 " Fix UI desyncs
-nnoremap <leader>sn <Esc>:syntax sync fromstart<CR> 
+nnoremap <leader>sy <Esc>:syntax sync fromstart<CR>
 nnoremap <leader>/ :nohlsearch<CR>
 
 set backup
@@ -92,6 +92,13 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <Down> g<Down>
 nnoremap <Up> g<Up>
+
+" netrw settings
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_liststyle=3
+nnoremap <leader>ve :Vexplore<CR>
 
 " Installs plugin manager if not already installed
 "
