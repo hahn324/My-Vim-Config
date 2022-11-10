@@ -37,7 +37,7 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
-set splitbelow 
+set splitbelow
 set splitright
 set whichwrap+=<,>,h,l,[,]
 set noerrorbells
@@ -60,7 +60,7 @@ autocmd BufRead * execute "normal zMzR"
 
 syntax enable
 
-let mapleader = " " 
+let mapleader = " "
 " turn spelling off or on
 setlocal spelllang=en_us
 nnoremap <leader>sp :setlocal spell!<CR>
