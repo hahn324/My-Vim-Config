@@ -71,6 +71,12 @@ nnoremap <leader>p "*p
 " Fix UI desyncs
 nnoremap <leader>sy <Esc>:syntax sync fromstart<CR>
 nnoremap <leader>/ :nohlsearch<CR>
+" Show all trailing whitespace
+nnoremap <leader>w /\s\+$<CR>
+" Toggle cursor column
+nnoremap <leader>cc :set cursorcolumn!<CR>
+" Change working directory to directory of file for current window only
+nnoremap <leader>cd :lcd %:h<CR>
 
 set backup
 set backupdir=~/.vim/backup
@@ -99,6 +105,7 @@ let g:netrw_browse_split=0
 let g:netrw_altv=1
 let g:netrw_liststyle=3
 nnoremap <leader>ve :Vexplore<CR>
+nnoremap <leader>se :Sexplore<CR>
 
 " Installs plugin manager if not already installed
 "
