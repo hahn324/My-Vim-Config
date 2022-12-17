@@ -106,6 +106,7 @@ let g:netrw_altv=1
 let g:netrw_liststyle=3
 nnoremap <leader>ve :Vexplore<CR>
 nnoremap <leader>se :Sexplore<CR>
+nnoremap <leader>e :edit .<CR>
 
 " Installs plugin manager if not already installed
 "
