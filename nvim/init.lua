@@ -11,10 +11,9 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.splitbelow = true
 vim.opt.splitright = true
-vim.opt.foldmethod = syntax
+vim.opt.foldmethod = 'syntax'
 -- Adds ** to path to allow searching for files through all sub-directories
 vim.opt.path:append "**"
-
 
 -- Move between windows with <C> + direction
 vim.keymap.set({'n', 'v', 'o'}, '<C-H>', '<C-W>h', { remap = true})
