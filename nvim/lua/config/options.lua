@@ -15,7 +15,7 @@ vim.opt.smartindent = true
 
 vim.opt.scrolloff = 5
 
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "88"
 
 vim.opt.splitbelow = true
 vim.opt.splitright = true
